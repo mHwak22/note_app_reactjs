@@ -1,0 +1,23 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sidebar_icon{
+  cursor: pointer;
+}
+
+.sidebar_list{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.sidebar_list_item{
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  list-style: none;
+}
