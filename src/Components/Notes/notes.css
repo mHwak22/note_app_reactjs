@@ -19,3 +19,21 @@
     border: none;
 }
 
+.note_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.note_footer_delete{
+    cursor: pointer;
+    opacity: 0;
+    transition: 400ms;
+}
+
+.note:hover .note_footer_delete{
+    opacity: 1;
+}
+
+
+
