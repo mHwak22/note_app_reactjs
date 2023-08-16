@@ -1,15 +1,15 @@
 import React from 'react'
 
-import "../Notes/notes.css"
+import "../Notes/Notes.css"
 
-const notes = (props) => {
+const Notes = (props) => {
  
   return (
-    <div className='note'> 
+    <div className='note' style={{backgroundColor:props.notes.color}}> 
     <textarea className='note_textarea' defaultValue={props.notes.text}/>
     <p>{props.notes.time}</p>
     </div>
   )
 }
 
-export default notes
+export default Notes

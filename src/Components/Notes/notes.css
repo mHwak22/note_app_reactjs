@@ -4,7 +4,7 @@
     width: 280px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 40px;
 }
 

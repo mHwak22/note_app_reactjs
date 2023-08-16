@@ -13,6 +13,12 @@
   flex-direction: column;
   gap: 25px;
   align-items: center;
+  height: 0;
+  transform: 3350ms;
+}
+
+.sidebar_list_active{
+  height: 300px;
 }
 
 .sidebar_list_item{
